@@ -64,6 +64,7 @@ def masg(call):
 			bs = str(''.join(random.choice(xm)for i in range(7))) 
 			bl = str(''.join(random.choice(xl)for i in range(1)))
 			email = str(bs)+str(num)+str(bl)
+			user_agent = generate_user_agent()
             'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 
             'x-fb-sim-hni': str(random.randint(20000, 40000)), 
             'x-fb-net-hni': str(random.randint(20000, 40000)), 
