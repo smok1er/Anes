@@ -1,2 +1,2 @@
-BOT_TOKEN = "2126500538:AAFpDtbTzTRgREi_THkKiJ2G46jKSoFLlWw"
-APP_URL = "https://ponss.herokuapp.com/" + BOT_TOKEN
+BOT_TOKEN = "5413152492:AAEkpS-qopVJTr30VyoZU5Akky0ySaQedXs"
+APP_URL = "https://poorenj.herokuapp.com/" + BOT_TOKEN
