@@ -23,7 +23,7 @@ def boten(message):
     
     A = types.InlineKeyboardButton(text ="CHECKER (IRAN)", callback_data="F1")
     E = types.InlineKeyboardButton(text ="CHECKER (IRAN)", callback_data="F2")
-    M = types.InlineKeyboardButton('المطور', url='https://t.me/N_B_1')
+    M = types.InlineKeyboardButton('المطور', url='https://t.me/n_n_v')
     
     mas.add(A,E,M)
     
@@ -44,9 +44,9 @@ def masg(call):
 		
 		E = types.InlineKeyboardButton(text ="CHECKER (IRAN)", callback_data="F2")
 		
-		M = types.InlineKeyboardButton('المطور', url='https://t.me/N_B_1')
+		M = types.InlineKeyboardButton('المطور', url='https://t.me/n_n_v')
 		
-		M = types.InlineKeyboardButton('قناه البوت', url='https://t.me/N_B_100')
+		M = types.InlineKeyboardButton('قناه البوت', url='https://t.me/c_p_8')
 		
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير حسابات انستا غرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 
@@ -117,7 +117,7 @@ def masg(call):
 				following = str(response.json()['user']['following_count'])
 				post = str(response.json()['user']['media_count'])
 				date = SidraELEzz.data(str(username))
-				bot.send_message(call.message.chat.id,f"‹ ᴜѕᴇʀɴᴀᴍᴇ instagram  ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : @{user}\n password : {pasw} \n fowllwers : {followers} \n fowllwing : {following} \n post : {post} \n data : {date} \n────── • ✧✧ • ──────\n• @N_B_1")
+				bot.send_message(call.message.chat.id,f"‹ ᴜѕᴇʀɴᴀᴍᴇ instagram  ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : @{user}\n password : {pasw} \n fowllwers : {followers} \n fowllwing : {following} \n post : {post} \n data : {date} \n────── • ✧✧ • ──────\n• @n_n_v")
 				
 			else:
 				cp+=1
@@ -127,7 +127,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{email}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('المطور', url='https://t.me/N_B_1')
+				M = types.InlineKeyboardButton('المطور', url='https://t.me/n_n_v')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 	elif call.data =="F2":
@@ -195,7 +195,7 @@ def masg(call):
 				following = str(response.json()['user']['following_count'])
 				post = str(response.json()['user']['media_count'])
 				date = SidraELEzz.data(str(username))
-				bot.send_message(call.message.chat.id,f"‹ ᴜѕᴇʀɴᴀᴍᴇ instagram  ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : @{user}\n password : {pasw} \n fowllwers : {followers} \n fowllwing : {following} \n post : {post} \n data : {date} \n────── • ✧✧ • ──────\n• @N_B_1")
+				bot.send_message(call.message.chat.id,f"‹ ᴜѕᴇʀɴᴀᴍᴇ instagram  ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : @{user}\n password : {pasw} \n fowllwers : {followers} \n fowllwing : {following} \n post : {post} \n data : {date} \n────── • ✧✧ • ──────\n• @n_n_v")
 				
 			else:
 				cp+=1
@@ -205,7 +205,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{email}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('المطور', url='https://t.me/N_B_1')
+				M = types.InlineKeyboardButton('المطور', url='https://t.me/n_n_v')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
